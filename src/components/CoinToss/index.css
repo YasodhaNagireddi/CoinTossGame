@@ -1,0 +1,94 @@
+/* Write your CSS here */
+
+.coinToss-bg-container {
+  background: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coinToss-card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding: 24px;
+  width: 80%;
+}
+.coinToss-heading {
+  text-align: center;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.coinToss-description {
+  font-size: 20px;
+  font-family: 'ROboto';
+  font-weight: 600;
+  color: #334155;
+  margin-top: 8px;
+}
+.toss-result-img {
+  height: 150px;
+  width: 150px;
+}
+.toss-coin-btn {
+  border: none;
+  background-color: #ffda6f;
+  height: 50px;
+  width: 90px;
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+}
+.count {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+@media screen and (min-width: 768px) {
+  .coinToss-heading {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .coinToss-card-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+  .coinToss-description {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .toss-result-img {
+    height: 25px;
+    width: 250px;
+  }
+  .toss-coin-btn {
+    margin-top: 32px;
+  }
+  .counts-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
